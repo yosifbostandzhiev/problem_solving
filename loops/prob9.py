@@ -8,12 +8,14 @@
 rows = int(input())
 columns = int(input())
 
-for row in range(rows):
-    for column in range(columns):
+for row in range(0, rows):
+    for column in range(0, columns):
         print(column, end=" ")
     print()
 
-l = [[y for y in range(columns)] for x in range(rows)]
+l = [[str(y) for y in range(columns)] for x in range(rows)]
+
+print()
 
 for val in l:
-    print(val)
+    print(" ".join(val))
