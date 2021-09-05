@@ -9,9 +9,9 @@ rows = int(input())
 columns = int(input())
 
 for row in range(rows):
-    for column in range(columns+1):
+    for column in range(columns):
         print(column, end=" ")
     print()
 
-l = [[y for y in range(columns+1)] for x in range(rows)]
+l = [[y for y in range(columns)] for x in range(rows)]
 print(l)

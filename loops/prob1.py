@@ -1,6 +1,6 @@
 # 1.    Write a program that inputs a positive integer N and outputs the factorial of 2N
 
-n = 3
+n = int(("Input your positive integer: "))
 n = 2 * n
 n_fact = 1
 

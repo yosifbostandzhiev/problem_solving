@@ -9,5 +9,5 @@ while i < n:
         count+=1
 if count > 2 or count == 1:
     print("Your number is not prime")
-elif count != 1:
+else:
     print("Your number is prime")

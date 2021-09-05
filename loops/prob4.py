@@ -2,7 +2,7 @@
 # by comma and space. N is entered from the standard input.
 
 n = int(input("Please input the desired number of first even Fibonacci numbers: "))
-i = 1
+i = 0
 fib = []
 first = 0
 second = 1

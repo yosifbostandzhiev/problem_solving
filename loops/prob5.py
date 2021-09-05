@@ -10,6 +10,7 @@ while i < n:
 
 sum = 0
 str_fact = str(n_fact)
+print(str_fact)
 
 for _ in str_fact:
     sum = sum + int(_)
