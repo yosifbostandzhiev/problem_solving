@@ -14,4 +14,6 @@ for row in range(rows):
     print()
 
 l = [[y for y in range(columns)] for x in range(rows)]
-print(l)
+
+for val in l:
+    print(val)
