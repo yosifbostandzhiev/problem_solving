@@ -16,6 +16,8 @@ card = {
 }
 min = 1
 max = 15
+i = 0
+
 for letter in card:
     card[letter] = random.sample(range(min, max), 5)
     min += 15
