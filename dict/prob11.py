@@ -29,10 +29,13 @@ for letter in card:
     print(letter.center(2), end=" ")
 print()
 
-for row in range(4):
-    for value in card.values():
-        print(value[0+row], end=" ")
-    print()
+# for row in range(4):
+#     for value in card.values():
+#         print(value[0+row], end=" ")
+#     print()
+
+
+
 
 
 # = str(value)[1:-1].strip().replace(","," ")
