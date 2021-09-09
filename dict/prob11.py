@@ -5,6 +5,7 @@
 # бинго карта и я съхранява в речник. Ключовете ще бъдат буквите B, I, N, G и O.
 # Стойностите ще бъдат списъците на пет числа, които се появяват под всяка буква. Да се
 # принтира картата Бинго заедно с колоните, обозначени по подходящ начин.
+
 import random
 
 card = {
@@ -16,10 +17,19 @@ card = {
 }
 min = 1
 max = 15
-i = 0
+i = 1
 
 for letter in card:
     card[letter] = random.sample(range(min, max), 5)
     min += 15
     max += 15
-print(card)
+# print(card)
+
+for letter in card:
+    print(letter, end=" ")
+print()
+
+for value in card.values():
+    value = str(value)[1:-1].strip().replace(","," ")
+    print(value)
+    # print(" ".join(value))
